@@ -1,0 +1,4 @@
+Temat: partycje na dyskach tawrdych., stysyemy plikow
+patrycja- wydzoielona czesc dysku
+tablica patrycji - talica azwiercaja informajce o podziale dynsku na partycje
+system plikow - System plików to metoda organizowania, przechowywania i zarządzania plikaow na dytsku
