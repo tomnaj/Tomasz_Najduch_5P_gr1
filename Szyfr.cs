@@ -8,6 +8,10 @@ namespace Aplikacja_do_testowania
     {
         public string Szyfrowanie(string text, int klucz)
         {
+            if (text == null)
+            {
+                throw new ArgumentNullException(nameof(text));
+            }
             StringBuilder wynik = new StringBuilder();
             foreach (char znak in text)
             {
