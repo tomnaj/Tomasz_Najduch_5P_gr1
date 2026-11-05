@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Aplikacja_do_testowania
+{
+    internal class Szyfr
+    {
+        /// <summary>
+        /// Szyfruje tekst szyfrem Cezara
+        /// </summary>
+        /// <param name="tekst">Tekst do zaszyfrowania</param>
+        /// <param name="przesun">Liczba pozycji przesunięcia (domyślnie 3)</param>
+        /// <returns>Zaszyfrowany tekst</returns>
+        public static string Szyfruj(string tekst, int przesun = 3)
+        {
+            StringBuilder wynik = new StringBuilder();
+
+            foreach (char znak in tekst)
+            {
+                if (char.IsLetter(znak))
+                {
+                    char bazowa = char.IsUpper(znak) ? 'A' : 'a';
+                    int indeks = znak - bazowa;
+                    int nowyIndeks = (indeks + przesun) % 26;
+                    wynik.Append((char)(bazowa + nowyIndeks));
+                }
+                else
+                {
+                    wynik.Append(znak);
+                }
+            }
+
+            return wynik.ToString();
+        }
+
+        /// <summary>
+        /// Deszyfruje tekst szyfrem Cezara
+        /// </summary>
+        /// <param name="tekst">Tekst do odszyfrowania</param>
+        /// <param name="przesun">Liczba pozycji przesunięcia (domyślnie 3)</param>
+        /// <returns>Odszyfrowany tekst</returns>
+        public static string Deszyfruj(string tekst, int przesun = 3)
+        {
+            return Szyfruj(tekst, 26 - przesun);
+        }
+    }
+}

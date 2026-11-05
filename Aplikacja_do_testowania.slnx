@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Aplikacja_do_testowania/Aplikacja_do_testowania.csproj" />
+  <Project Path="Szyfr.Tests/SzyfrTest.csproj" Id="f1ee298e-8cb7-44b1-98a2-17ae017ef3f1" />
+  <Project Path="UnitTest2/UnitTest2.csproj" Id="1abc2be9-ab6c-42a7-be2f-f87c4dfdb458" />
+</Solution>
