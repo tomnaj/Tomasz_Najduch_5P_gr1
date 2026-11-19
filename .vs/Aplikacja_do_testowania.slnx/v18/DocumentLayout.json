@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\tnajd\\source\\repos\\Aplikacja_do_testowania\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1ABC2BE9-AB6C-42A7-BE2F-F87C4DFDB458}|UnitTest2\\UnitTest2.csproj|c:\\users\\tnajd\\source\\repos\\aplikacja_do_testowania\\unittest2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ABC2BE9-AB6C-42A7-BE2F-F87C4DFDB458}|UnitTest2\\UnitTest2.csproj|solutionrelative:unittest2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67A63411-3E2B-AC8B-69ED-236632A9A3C4}|Aplikacja_do_testowania\\Aplikacja_do_testowania.csproj|c:\\users\\tnajd\\source\\repos\\aplikacja_do_testowania\\aplikacja_do_testowania\\szyfr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67A63411-3E2B-AC8B-69ED-236632A9A3C4}|Aplikacja_do_testowania\\Aplikacja_do_testowania.csproj|solutionrelative:aplikacja_do_testowania\\szyfr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D13639-D860-4752-B555-72FF00A7A6EF}|Test_systemowy\\Test_systemowy.csproj|c:\\users\\tnajd\\source\\repos\\aplikacja_do_testowania\\test_systemowy\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D13639-D860-4752-B555-72FF00A7A6EF}|Test_systemowy\\Test_systemowy.csproj|solutionrelative:test_systemowy\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABC2BE9-AB6C-42A7-BE2F-F87C4DFDB458}|UnitTest2\\UnitTest2.csproj|c:\\users\\tnajd\\source\\repos\\aplikacja_do_testowania\\unittest2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ABC2BE9-AB6C-42A7-BE2F-F87C4DFDB458}|UnitTest2\\UnitTest2.csproj|solutionrelative:unittest2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1EE298E-8CB7-44B1-98A2-17AE017EF3F1}|Szyfr.Tests\\SzyfrTest.csproj|c:\\users\\tnajd\\source\\repos\\aplikacja_do_testowania\\szyfr.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\tnajd\\source\\repos\\Aplikacja_do_testowania\\Test_systemowy\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Test_systemowy\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\tnajd\\source\\repos\\Aplikacja_do_testowania\\Test_systemowy\\UnitTest1.cs",
+              "RelativeToolTip": "Test_systemowy\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T20:16:33.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\tnajd\\source\\repos\\Aplikacja_do_testowania\\UnitTest2\\UnitTest1.cs",
               "RelativeDocumentMoniker": "UnitTest2\\UnitTest1.cs",
@@ -42,44 +58,42 @@
               "RelativeToolTip": "UnitTest2\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T20:56:42.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T20:56:42.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\tnajd\\source\\repos\\Aplikacja_do_testowania\\Szyfr.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "Szyfr.Tests\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\tnajd\\source\\repos\\Aplikacja_do_testowania\\Szyfr.Tests\\UnitTest1.cs",
               "RelativeToolTip": "Szyfr.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T13:01:41.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T13:01:41.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Szyfr.cs",
               "DocumentMoniker": "C:\\Users\\tnajd\\source\\repos\\Aplikacja_do_testowania\\Aplikacja_do_testowania\\Szyfr.cs",
               "RelativeDocumentMoniker": "Aplikacja_do_testowania\\Szyfr.cs",
               "ToolTip": "C:\\Users\\tnajd\\source\\repos\\Aplikacja_do_testowania\\Aplikacja_do_testowania\\Szyfr.cs",
               "RelativeToolTip": "Aplikacja_do_testowania\\Szyfr.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T12:41:51.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tnajd\\source\\repos\\Aplikacja_do_testowania\\Aplikacja_do_testowania\\Program.cs",
               "RelativeDocumentMoniker": "Aplikacja_do_testowania\\Program.cs",
               "ToolTip": "C:\\Users\\tnajd\\source\\repos\\Aplikacja_do_testowania\\Aplikacja_do_testowania\\Program.cs",
               "RelativeToolTip": "Aplikacja_do_testowania\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T12:41:05.157Z"
             }
