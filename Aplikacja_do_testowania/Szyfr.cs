@@ -12,20 +12,24 @@ namespace Aplikacja_do_testowania
             {
                 throw new ArgumentNullException(nameof(text));
             }
-            StringBuilder wynik = new StringBuilder();
+
+            int przesuniecie = klucz % 26;
+            StringBuilder wynik = new StringBuilder(text.Length);
+
             foreach (char znak in text)
             {
-                if (char.IsLetter(znak))
+                if (char.IsUpper(znak))
                 {
-                    char przesunietyZnak = (char)(znak + klucz);
-                    if (char.IsUpper(znak) && przesunietyZnak > 'Z')
-                    {
-                        przesunietyZnak = (char)(przesunietyZnak - 26);
-                    }
-                    else if (char.IsLower(znak) && przesunietyZnak > 'z')
-                    {
-                        przesunietyZnak = (char)(przesunietyZnak - 26);
-                    }
+                    char przesunietyZnak = (char)(znak + przesuniecie);
+                    if (przesunietyZnak > 'Z') przesunietyZnak = (char)(przesunietyZnak - 26);
+                    else if (przesunietyZnak < 'A') przesunietyZnak = (char)(przesunietyZnak + 26);
+                    wynik.Append(przesunietyZnak);
+                }
+                else if (char.IsLower(znak))
+                {
+                    char przesunietyZnak = (char)(znak + przesuniecie);
+                    if (przesunietyZnak > 'z') przesunietyZnak = (char)(przesunietyZnak - 26);
+                    else if (przesunietyZnak < 'a') przesunietyZnak = (char)(przesunietyZnak + 26);
                     wynik.Append(przesunietyZnak);
                 }
                 else
@@ -33,6 +37,7 @@ namespace Aplikacja_do_testowania
                     wynik.Append(znak);
                 }
             }
+
             return wynik.ToString();
         }
 

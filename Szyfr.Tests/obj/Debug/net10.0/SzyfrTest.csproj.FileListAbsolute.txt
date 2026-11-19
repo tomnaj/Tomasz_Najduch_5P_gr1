@@ -101,3 +101,4 @@ C:\Users\tnajd\source\repos\Aplikacja_do_testowania\Szyfr.Tests\obj\Debug\net10.
 C:\Users\tnajd\source\repos\Aplikacja_do_testowania\Szyfr.Tests\obj\Debug\net10.0\SzyfrTest.pdb
 C:\Users\tnajd\source\repos\Aplikacja_do_testowania\Szyfr.Tests\obj\Debug\net10.0\SzyfrTest.genruntimeconfig.cache
 C:\Users\tnajd\source\repos\Aplikacja_do_testowania\Szyfr.Tests\obj\Debug\net10.0\ref\SzyfrTest.dll
+C:\Users\tnajd\source\repos\Aplikacja_do_testowania\Szyfr.Tests\obj\Debug\net10.0\SzyfrTest.sourcelink.json

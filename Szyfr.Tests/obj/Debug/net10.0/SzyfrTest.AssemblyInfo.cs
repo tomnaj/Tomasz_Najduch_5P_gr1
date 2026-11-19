@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SzyfrTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60737f53fd9ac3b2fe18ae496e8e1c4117dbe002")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33e7420d3366885a0f605a59895a4ff64f7e24ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("SzyfrTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SzyfrTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
